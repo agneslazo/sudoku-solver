@@ -1,0 +1,25 @@
+.PuzzleCont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.PuzzleBox {
+    border: solid 1px black;
+    width: 4ch;
+    height: 4ch;
+    display: grid;
+    place-content: center;
+}
+
+.Board {
+    display: flex;
+    flex-direction: column;
+}
+
+.Row {
+    display: flex;
+}
